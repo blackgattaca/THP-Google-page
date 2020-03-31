@@ -1,0 +1,144 @@
+/* css */
+
+html {
+  background-color:#ffffff;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: arial,sans-serif;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+a:link
+{
+  color: black;
+  text-decoration: none;
+}
+
+a{
+text-decoration:none;
+color:#808080;
+}
+
+a:visited
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline
+}
+
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
+
+
+
+#tete{
+  display:flex;
+  justify-content: space-between;
+}
+
+.gmail{
+  display:flex;
+  justify-content: flex-end;
+}
+.image{
+  display:flex;
+  justify-content: flex-end;
+}
+.appgl{
+  height: 25px;
+  width: 25px;
+  display:flex;
+  justify-content: flex-end;
+}
+
+
+#connexion {
+	background-color: #007bff;
+	border: 1px solid #007bff;
+	height :35px;
+  margin-top:10px;
+}
+
+
+#inputbut {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+#button {
+	display: flex;
+	justify-content: center;
+}
+
+.search {
+	width: 22px;
+	height: 22px;
+	position: relative;
+	left:35px;
+	top:8px;
+}
+
+#gif {
+  display: flex;
+	justify-content: center;
+
+}
+
+.gifa {
+  display: flex;
+	justify-content: center;
+  height: 30px;
+  width: 30px;
+}
+
+
+
+footer{
+  height: 80px;
+  width: 100%;
+}
+#navfooter{
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+
+.france{
+  color: #808080;
+  position: absolute;
+  height: 30px;
+  bottom: 0;
+  width: 100%;
+  border: 0.3px solid #808080;
+  background-color: #DCDCDC;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.cadre{
+  color: #808080;
+  position: absolute;
+  height: 30px;
+  top: 100%;
+  width: 100%;
+  text-align: middle;
+  border: 0.3px solid #808080;
+  background-color: #DCDCDC;
+}
